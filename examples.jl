@@ -9,7 +9,7 @@
 # Run Solver
 # Display Results
 # Report Conclusion
-# Visualize Conclusion (for nonlinear)
+# Visualise Conclusion (for nonlinear)
 
 # Example 2: Knapsack Problem from Wikipedia (binary)
 
