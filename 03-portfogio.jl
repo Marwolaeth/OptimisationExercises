@@ -102,3 +102,7 @@ p2 = areaplot(
 vline!(p2, [8.0], linestyle=:dash, colour=:crimson, linewidth=2, label="8% Slice")
 
 plot(p1, p2, layout=(1, 2), size=(950, 420))
+
+set_normalized_rhs(target_return, 0.08)
+unset_silent(model)
+optimize!(model)
