@@ -18,7 +18,7 @@
 # Describe Situation
 #=
     Pack the most valuable boxes without overloading the luggage.
-    Assume only 1 box of each color is available.
+    Assume only 1 box of each colour is available.
 =#
 
 # Select Packages
@@ -68,7 +68,7 @@ objective_value(model)
 # Report Conclusion
 #=
     A Maximum Dollar value of $15 can be achieved by taking every box,
-    except for the Green box, assuming there is only 1 box of each color.
+    except for the Green box, assuming there is only one box of each colour.
 =#
 
 # Example 3: Knapsack Problem from Wikipedia (infinite supply)
@@ -76,7 +76,7 @@ objective_value(model)
 # Describe Situation
 #=
     Pack the most valuable boxes without overloading the luggage.
-    Assume an infinite supply of boxes of each color is available.
+    Assume an infinite supply of boxes of each colour is available.
 =#
 
 # Select Packages
@@ -125,5 +125,5 @@ objective_value(model)
 # Report Conclusion
 #=
     A Maximum Dollar value of $36 can be achieved by taking 3 Yellow boxes,
-    and 3 Gray boxes, assuming an infinite supply of boxes of each color.
+    and 3 Gray boxes, assuming an infinite supply of boxes of each colour.
 =#
